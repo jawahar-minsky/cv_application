@@ -184,6 +184,7 @@ function App() {
               <label htmlFor='start_date'>Start date</label>
               <input type='date' id='start_date' value={startDate} onChange={handleStartDate}></input>
               <label htmlFor='currently_working' id='checkbox_label'><input type='checkbox' id='currently_working' value={isChecked} onChange={handleCheckbox}></input>Currently Working</label>
+              {/* DOUBT !!! 4. Bug in currently working */}
               {!isChecked?<><label htmlFor='end_date'>End date</label><input type='date' id='end_date' value={endDate} onChange={handleEndDate}></input></>:null}
               <p id="dateError" className='errors'></p>
             </fieldset>
