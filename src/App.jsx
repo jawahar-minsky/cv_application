@@ -28,26 +28,26 @@ function App() {
             ))}`;
     }
   }
-  const [name_value,setName]=useState('Candidate Name')
+  const [name_value,setName]=useState('')
   const [nameError, setNameError] = useState(true)
   const nameRegex = /^[A-Za-z ,.'-]+$/;
-  const [email,setEmail]=useState('example@example.com')
+  const [email,setEmail]=useState('')
   const [emailError, setEmailError]=useState(true)
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  const [phone,setPhone]=useState('9876543210')
+  const [phone,setPhone]=useState('')
   const [phoneError, setPhoneError] = useState(true)
   const phoneRegex = /^[6-9]+[0-9]{9}$/;
   const textRegex = /^[a-zA-Z0-9,'!%. ]*$/;
-  const [school, setSchool] = useState('ABC Business School')
+  const [school, setSchool] = useState('')
   const [schoolError, setSchoolError] = useState(true)
-  const [study_title, setStudyTitle] = useState('MBA')
+  const [study_title, setStudyTitle] = useState('')
   const [titleError, setTitleError] = useState(true)
   const [completionDate, setCompletionDate] = useState('')
-  const [company, setCompany] = useState('ABC Digital Solutions')
+  const [company, setCompany] = useState('')
   const [companyError, setCompanyError] = useState(true)
-  const [position, setPosition] = useState('Business Analyst')
+  const [position, setPosition] = useState('')
   const [positionError, setPositionError] = useState(true)
-  const [responsibilities, setResponsibilities] = useState('Analyse the business')
+  const [responsibilities, setResponsibilities] = useState('')
   const [responsibilityError, setResponsibilityError] = useState(true)
   const [startDate, setStartDate]=useState('')
   const [isChecked, setIsChecked] = useState(false)
