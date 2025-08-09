@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  /* border: 0.5px solid black; */
+}
+form {
+  margin: auto;
+  width: 50vw;
+  border: 1px solid black;
+  padding: 1vw;
+}
+#cv {
+  margin: auto;
+  width: 50vw;
+  border: 1px solid black;
+}
+label {
+  display: block;
+  padding-top: 0.5rem;
+}
+fieldset {
+  width:100%;
+  border: none;
+  padding-inline-start: 0 !important;
+  padding-inline-end: 0 !important;
+  margin-inline-start: 0 !important;
+  margin-inline-end: 0 !important;
+
+}
+h1 {
+  text-align: center;
+  color: Red;
+}
+input,button {
+  width: 100%;
+  /* max-width: min(300px,50vw); */
+  height: 2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+#edit {
+  display: block;
+  margin: 1rem auto auto auto;
+  width: 50vw;
+}
+textarea {
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 1.6px
+}
+legend {
+  font: 1.2rem Arial;
+  padding-top: 0.5rem;
+}
+.inline {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  text-align: center;
+}
+h5 {
+  font-style: italic;
+}
+h3, h4, h5, p {
+  margin-block-start: 0;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+#header {
+  background-color:aliceblue;
+  /* border: 0px solid transparent; */
+}
