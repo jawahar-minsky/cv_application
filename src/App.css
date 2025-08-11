@@ -4,7 +4,8 @@
 }
 form {
   margin: auto;
-  width: 50vw;
+  min-width: 50vw;
+  max-width: 400px;
   border: 1px solid black;
   padding: 1vw;
 }
